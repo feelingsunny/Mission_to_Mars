@@ -32,6 +32,8 @@ def scrape():
     # 2.JPL Mars Space Images
     url_image = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
     browser.visit(url_image)
+    browser.is_element_present_by_text("more info", wait_time=1.0)
+
     html_image = browser.html
 
     image_soup = bs(html_image, 'html.parser')
