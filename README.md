@@ -19,18 +19,3 @@ The MongoDB is currently hosted on the Database-as-a-Service https://mlab.com/. 
 
 Alternatively, it can run locally. First, install MongoDB. Once MongoDB is installed run the command mondgod on bash. Don't forget to comment and uncomment the URI to use the local database only. Also comment out import config.
 
-Requirements
-Modules Required
-pandas==0.23.3
-splinter==0.9.0
-pymongo==3.7.1
-numpy==1.15.0
-Flask==1.0.2
-requests==2.18.4
-beautifulsoup4==4.6.3
-gunicorn==19.9.0
-lxml==4.2.5
-Jinja2==2.10
-beautifulsoup4==4.6.3
-bs4==0.0.1
-Flask-PyMongo==2.1.0
