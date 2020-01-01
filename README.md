@@ -50,4 +50,4 @@ Alternatively, it can run locally. First, install MongoDB. Once MongoDB is insta
     * bs4==0.0.1
     * Flask-PyMongo==2.1.0
 
-
+![04-thumbnail](https://user-images.githubusercontent.com/49255104/71642101-fca4c100-2c6b-11ea-9a50-33f991e03b71.png)
